@@ -1,0 +1,8 @@
+{% if node.field_vagas.value > 0 %}
+<h1>{{ field_titulo }}</h1>
+    <h4>{{ content.field_data }}</h4>
+    <pre>{{ content.field_descricao }}</pre>
+    <h5>{{ content.field_vagas }}</h5>
+{% else %}
+    <h1>Desculpe, não há mais vagas para este evento!</h1>
+{% endif %}

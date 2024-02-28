@@ -1,0 +1,5 @@
+name: saque_form
+type: module
+description: Campo para verificação de um determinado valor para saque de cédulas.
+package: Custom
+core_version_requirement: ^9 || ^10
